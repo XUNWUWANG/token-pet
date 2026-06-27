@@ -1,4 +1,4 @@
-﻿import json, time, urllib.request, urllib.error
+import json, time, urllib.request, urllib.error
 from dataclasses import dataclass
 
 BALANCE_URL = "https://api.deepseek.com/user/balance"
