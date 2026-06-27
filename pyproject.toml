@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "token-pet"
+version = "1.0.0"
+description = "Codex 用量桌宠 — 实时监控 Codex Token 消耗和 DeepSeek 账户余额"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+keywords = ["codex", "token", "deepseek", "desktop-pet"]
+
+dependencies = [
+    "python-dotenv>=1.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["pet*"]
